@@ -16,6 +16,16 @@ def home(request):
     # context["h5"]="this is h5"
     dict={}
     title="this is title"
-    h5="this is h5"
+    h1="home page"
     
-    return render(request,'home.html',{"title":title,"h5":h5})
+    return render(request,'home.html',{"title":title,"h1":h1})
+def skilltester(request):
+    # lang='en'
+    # context=pagelabel(lang)
+    # context["title"]="this is title"
+    # context["h5"]="this is h5"
+    dict={}
+    title="this is title"
+    h1="home page"
+    
+    return render(request,'skilltester.html',{"title":title,"h1":h1})
